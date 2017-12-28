@@ -31,3 +31,13 @@ error: espcomm_upload_mem failed
 
 ```
 
+
+The proper fix was done as suggested in the diagram above and adding the RESET button fixed the upload issues.
+
+A 3.3v regulator was added to 12V power supply to get me the required DC output to ESP01.
+
+
+
+Another interesting link for fixing reset problems in ESP
+
+https://iotbytes.wordpress.com/3-3v-power-supply-for-esp-8266/
